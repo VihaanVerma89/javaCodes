@@ -1,4 +1,4 @@
-*/A program which takes an array of letters as input, and finds ALL the possible permutations of these letters. 
+/*A program which takes an array of letters as input, and finds ALL the possible permutations of these letters. 
 
 Example: if your input is 
 
