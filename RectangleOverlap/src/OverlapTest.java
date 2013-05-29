@@ -1,4 +1,9 @@
+/*
+  program which takes the coordinates of two rectangles, and outputs TRUE if the squares overlap
+    For example: with input as 
 
+    0,0,4,4,1,1,7,7  --- the ouput is TRUE.
+*/
 public class OverlapTest 
 {
 

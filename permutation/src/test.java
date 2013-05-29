@@ -1,3 +1,16 @@
+*/A program which takes an array of letters as input, and finds ALL the possible permutations of these letters. 
+
+Example: if your input is 
+
+['a', 'c', 'b']
+
+your output should be: 
+
+['a', 'b', 'c']
+['b', 'c', 'a']
+['c', 'b', 'a']
+['c', 'a', 'b']... etc and so on. */
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
