@@ -1,29 +1,41 @@
 InterviewStreet Log problem
-InterviewStreet.com uses a custom C++ server to run parts of our site. We log every request in the following format:
+InterviewStreet.com uses a custom C++ server to run parts of our site. 
+We log every request in the following format:
 
 <timestamp> <http-response-code> <response-time> <URL> 
-The timestamp is of format "<weekday> <month> <day> <time> <year>". Example: "Fri Nov  4 15:41:31 2011"
+The timestamp is of format "<weekday> <month> <day> <time> <year>". 
+Example: "Fri Nov  4 15:41:31 2011"
 
-We want to find out how many 404s occur within a specified time range in a single log file. When we started out, a simple linear search solution for this task was fast enough. However, as we became immensely super popular, it became way too slow. We get approximately a billion page requests a day, and at that scale, any form of linear search makes us wait for more than 15 seconds, which is simply unacceptable to any proper geek.
+We want to find out how many 404s occur within a specified time range in a single log file. 
+When we started out, a simple linear search solution for this task was fast enough. However,
+as we became immensely super popular, it became way too slow. We get approximately a billion
+ page requests a day, and at that scale, any form of linear search makes us wait for more than
+ 15 seconds, which is simply unacceptable to any proper geek.
 
-Your task, is to write a utility named logfind, that takes as input the log file name and a unix timestamp range (start and end), and finds out:
+Your task, is to write a utility named logfind, that takes as input the log file name and a unix
+ timestamp range (start and end), and finds out:
 
 Number of requests within that particular time period (inclusive)
 Number of requests that returned a 404 in that time period
 Average response time for all non-404 responses
 Print them one per line to stdout.
 
-You can use any language you want, as long as it runs on Linux. You can use this piece of code to generate sample data.
+You can use any language you want, as long as it runs on Linux. You can use this piece of code
+ to generate sample data.
 
 Problem Intructions
 
-Please write your code on your local machine. Then, when you're ready to test and submit, click the Participate button below and enter your public key to check out an instance for 1 hour and load your code via SSH.
+Please write your code on your local machine. Then, when you're ready to test and submit, click
+ the Participate button below and enter your public key to check out an instance for 1 hour and
+ load your code via SSH.
 
 Your input is the following command typed into the shell:
 
 logfind <filename> <start_time> <end_time>
 
-start_time and end_time are unix timestamps. end_time will always be greater than start_time. It is also guaranteed that both start_time and end_time are divisible by 60 (that is, their second components are always zero)
+start_time and end_time are unix timestamps. end_time will always be greater than start_time.
+ It is also guaranteed that both start_time and end_time are divisible by 60 (that is, their
+ second components are always zero)
 
 Your utility should return to stdout, one per line:
 
