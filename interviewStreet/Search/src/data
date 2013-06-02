@@ -1,1 +1,3 @@
 Github doesnt allowing upload files as big as 5GB for manifest reasons.
+You can download the code and run the makeData.sh script to generate
+a big data file.

@@ -1,7 +1,15 @@
-you can generate your own "data" file by making the makedata.sh script executable.
+You will find solution to one of the InterviewStreet code problems called LogFind
+here. Since the final solution will be run against a huge file I have written a 
+script to generate which generates a really big file , Dont even think about opening
+it in VIM :P.
+
+You can generate your own "data" file by making the makedata.sh script executable.
 
 Warning: makedata.sh script will make file as big as 5GB but you can customize as
 per your needs.
 
 $ chmod 755 makedata.sh
 $ ./makeData.sh
+
+
+The solution is in logFind.java with a sample output of big file in bigFileSampleOuput.
