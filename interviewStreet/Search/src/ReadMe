@@ -1,0 +1,7 @@
+you can generate your own "data" file by making the makedata.sh script executable.
+
+Warning: makedata.sh script will make file as big as 5GB but you can customize as
+per your needs.
+
+$ chmod 755 makedata.sh
+$ ./makeData.sh

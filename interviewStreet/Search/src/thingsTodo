@@ -1,0 +1,20 @@
+Things to be done to solve this problem
+
+1. Convert unix time stamp to comparable dates.
+    
+
+2. Find the middle location of the file and then goto the new line character on that line.
+
+    Binary search can break anywhere on the line. Reverse search the new line character
+    which has ASCII value 10.
+
+    IMPORTANT:
+    10Sun May 26 21:33:00 GMT 2013
+    ^ ^
+    | |
+    | |
+    | This is the location where your file pointer should be for readLine().
+    |
+    This will represent the new line character which has a lenght of 1.
+
+3. use binary search.

@@ -1,0 +1,7 @@
+Input from dummy file
+start_time = Sun May 26 21:27:32 2013 404 568 /recruit/test/start 1369603652
+end_time = Sun May 26 21:28:54 2013 200 341 /user/setpassword?id=6&password=coffeemug 1369603734
+
+input 
+/home/vihaan/code/github/interviewStreet/dummy  1369603652 1369603734
+
