@@ -92,7 +92,6 @@ public class SpreadSheets
 //		int number = 18279;
 		int number = 18500;
 //		int number = 26*26*26*26*26;
-//		int number = 26*26*26*26*26;
 		
 		for(int i = 1 ; i <= number ; i++)
 		{

@@ -1,0 +1,7 @@
+Problem definition
+Given a number return the corresponding label name in a spreadsheet.
+Example
+1 => 'A'
+26 => 'Z'
+703 => 'AAA'
+
