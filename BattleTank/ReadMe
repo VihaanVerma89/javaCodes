@@ -1,0 +1,27 @@
+Design questionnaire: Battle tank
+
+Requirement
+
+Design a program to simulate battle tanks.It should meet following requirements: (
+    1) There would be two types of battle tanks– Mini and Jumbo.
+(2) Each battle tank should be able to move forward by 1 unit in the current direction when a“ Move”,
+command is issued.A“ back” command would move the tank in reverse direction by 1 unit
+    .
+(3)“ Turn Left” and Turn Right” command should turn the battle tank 90 degrees left and right respectively
+    .
+(4) Battle tank must know its direction at any point of time.It should also know the total distance traveled
+    .
+(5) A battle tank would be given some X unit of fuel.
+(6) Battle tank can fire gun according to the power level given in the command.
+
+For Mini battle tank: (1) There would be 4 power levels.
+(2) Each fire reduces the(1 * power level) unit of fuel.For example fuel consumed
+for power level four is 4.(I.e.1 * 4).
+(3) Each move or turn of battle tank reduces the fuel by 1 unit.
+
+For Jumbo battle tank: (1) There would be 5 power levels.
+(2) Each fire reduces the(2 * power level) units of fuel.
+(3) Each move or turn of battle tank reduces the fuel by 2 units.
+
+Battle tank should report
+if it fails to obey the command issued.
