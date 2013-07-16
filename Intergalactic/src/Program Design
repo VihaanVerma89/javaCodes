@@ -1,0 +1,29 @@
+This file lists what class is for what purpose.
+
+CurrencyMapper.java
+It stores the unit value of each of the Elements like Gold, Iron and Silver.
+
+Globa.java
+It store variable used in more than one file ,which are some regex.
+
+NummeralMapper.java
+It stores the mapping between Vulcan numerals and Roman numerals.
+
+Parser.java
+It handles the entire program by deciding which components should be
+called to handle different functionality of the program.
+
+QuestionHandler.java
+It answer the questions.
+
+RomanNumerals.java
+It takes care of Roman Numeral related functionality.
+
+CurrencyHelper.java
+Entry point of the program.
+
+Util.java
+Handles print statements.
+
+VulcanNumerals.java
+It takes care of Vulcan Numeral related functionality.
