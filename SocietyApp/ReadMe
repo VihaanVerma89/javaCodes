@@ -1,0 +1,19 @@
+A Simple app which reads a data from two config files and helps in booking facility at a Society.
+
+Problem Statement:
+
+* An Apartment complex can have multiple facilities like Club house,
+  Tennis Court
+* Residents can book these facilities
+* Each facility has an amount assigned to it - either its slot based
+  (10am to 4pm : 100Rs per hour, 4pm to 10pm : 500Rs per hour)  or a simple
+  multiplier : Rs.50 per hour
+
+Following is a sample Input / Output
+
+Input : (Tennis Court, 2012-10-26, 20:00,22:00 ) 
+Output : Booked, Rs. 1000
+Input : (Club House, 2012-10-27, 10:00,20:00 ) 
+Output : Booked, Rs. 500
+Input : (Tennis Court, 2012-10-26, 20:00,22:00 ) 
+Output : Already Booked - Booking not allowed.

@@ -1,11 +1,12 @@
-This Repository contains solutions to some of the problems I have solved.
+This Repository contains solutions to some of the problems I have solved using Java.
 
-Following are the list of problems arranged in order of complexities.
+Following are the list of problems arranged in order of complexities(low to high).
 
-1.frequency
+1.Frequency
 2.RectangleOverlap
 3.BattleTank
 4.SpreadSheets
-5.interviewStreet
-6.permutation
-7.Intergalactic
+5.SocietyApp
+6.interviewStreet
+8.permutation
+9.Intergalactic
